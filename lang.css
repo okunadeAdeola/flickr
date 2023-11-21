@@ -1,0 +1,192 @@
+#flickr{
+    position: relative;
+    left: -209px;
+    font-size: 49px;
+    font-weight: bold;
+}
+#logo{
+    position: relative;
+    left: -60px;
+    top: -20px;
+}
+#firstdiv{
+    /* height: 90px; */
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    opacity: 0.6;
+}
+.form-control{
+    position: relative;
+    top: -30px;
+    left: 320px;
+    background-color: aliceblue;
+}
+#image{
+    position: relative;
+    left: 324px;
+    width: 30px;
+    height: 39px;
+    top: -14px;
+    /* border: white; */
+    background-color: white;
+    border-radius: 4px;
+}
+#second{
+    position: relative;
+    left: -70px;
+}
+#sign{
+    position: relative;
+    left: 990px;
+    bottom: 90px;
+    width: 103px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bold;
+}
+#log{
+    position: relative;
+    left: 1020px;
+    bottom: 90px;
+    width: 103px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.carousel-inner{
+    height: 581px;
+}
+#inspiration{
+    position: relative;
+    width: 50%;
+    top: -350px;
+    left: 270px;
+    /* border: 2px solid green; */
+    text-align: center;
+}
+#lastbutton{
+    width: 120px;
+    height: 50px;
+    border: none;
+}
+#flex{
+    background-color: black;
+    position: relative;
+    bottom: 199px;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 17px;
+    
+}
+#facebook{
+    position: relative;
+    right: 10px;
+}
+#Flickr{
+    position: relative;
+    right: 20px;
+}
+@media screen and (max-width:500px){
+   
+    .container{
+        position: relative;
+        right: 299px !important;
+        width: 20px !important;
+        top: -10px !important;
+        /* overflow-x: hidden !important; */
+    }
+    #firstdiv{
+        height: 70px;
+        margin-bottom: 50px;
+        /* width: 35%; */
+        /* overflow-x: hidden; */
+        
+    }
+    #image{
+        display: none;
+    }
+    .form-control{
+        display: none !important;
+    }
+    #thirddiv{
+        position: relative;
+        left: -890px;
+        /* width: 10px; */
+    }
+    /* #second{
+        position: relative;
+        left: -200px;
+    } */
+    #sign{
+        position: relative;
+        width: 80px;
+        top: -70px;
+        font-size: 15px;
+        right:  -190px;
+
+        /* display: none; */
+    }
+    #log{
+        position: relative;
+        width: 70px;
+        font-size: 15px;
+        top: -70px;
+        /* left: 10px; */
+         /* left: -20px; */
+        /* display: none; */
+
+    }
+    #second{
+        margin-left: 340px;
+        width: 30%;
+    }
+    /* #second{ */
+        /* position: relative; */
+        /* width: 70px !important; */
+        /* left: -120px !important; */
+        /* top: 300px !important; */
+        /* display: flex; */
+    /* } */
+    .carousel-inner{
+        width: 100% !important;
+       
+    }
+    .d-block{
+        height: 690px !important;
+    }
+    #inspiration{
+        position: relative;
+        left: 60px;
+        top: -470px;
+    }
+    #flex{
+        display: inline-block;
+        height: 500px;
+        position: relative;
+        top: -310px;
+        width: 100%;
+        overflow: hidden;
+    }
+    #facebook{
+        position: relative;
+        left: 5px;
+        /* top: 500px; */
+        /* display: block; */
+    }
+    #Flickr{
+        /* position: relative; */
+        left: 5px;
+    }
+    /* #seconds{ */
+        /* display: none; */
+        /* position: relative; */
+        /* left: -150px;/ */
+        /* top: 6000px; */
+    /* } */
+}

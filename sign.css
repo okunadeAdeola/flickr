@@ -1,0 +1,76 @@
+#logo{
+    position: sticky;
+    left: 90px;
+    top: 0;
+    z-index: 500;
+    /* top: -300px; */
+
+}
+#border{
+    border: 2px solid white;
+    background-color: white;
+    height: 732px;
+    width: 440px;
+    position: relative;
+    margin-left: 480px;
+    border-radius: 4px;
+    bottom: 00px;
+    
+    
+}
+body{
+    overflow-x: hidden !important;
+}
+#second{
+    position: relative;
+    left: 170px;
+}
+#log{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    left: 120px;
+    top: 20px;
+    font-family: sans-serif;
+}
+#email{
+    height: 50px;
+    width: 360px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+#services{
+    position: relative;
+    top: 30px;
+}
+.img{
+    background-image: url(image/033120190455-by-Henry.2edde7a9.jpg);
+    height: 730px;
+}
+@media screen and (max-width:500px){
+    .shadow{
+        position: relative;
+        right: 520px;
+        /* height: 530px; */
+        /* width: 40%; */
+        overflow: hidden;
+        top: 03px;
+    }
+    .fluid-container{
+        /* width: 60%; */
+        overflow: hidden;
+    }
+    body{
+        overflow: hidden !important;;
+    }
+    #log{
+        position: relative;
+        top: -10px;
+        overflow: hidden !important;
+    }
+    .form-control{
+        width: 25%;
+        overflow: hidden;
+    }
+
+}

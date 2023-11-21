@@ -1,0 +1,202 @@
+#logo{
+    position: relative;
+    left: 90px;
+    /* top: -300px; */
+}
+.body{
+    overflow-x: hidden;
+}
+/* #flick{ */
+    /* position: relative; */
+    /* left: 140px; */
+    /* bottom: 30px; */
+    /* font-weight: bold; */
+    /* font-size: 20px; */
+/* } */
+#background{
+    height: 540px;
+    width: 1270px;
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* opacity: 0.4; */
+    /* z-index: 200; */
+}
+#border{
+    border: 2px solid white;
+    background-color: whitesmoke;
+    height: 30px;
+    width: 440px;
+    padding-bottom: 300px;
+    position: absolute;
+    margin-top: 60px;
+    /* margin-top: -490px; */
+    margin-left: 430px;
+    border-radius: 4px;
+    /* position: absolute; */
+    
+}
+#second{
+    position: relative;
+    text-align: center;
+    left: 180px;
+    top: 20px;
+}
+#log{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    left: 120px;
+    top: 20px;
+    font-family: sans-serif;
+}
+#email{
+    height: 50px;
+    width: 360px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+#place{
+    border: 2px solid aquamarine
+}
+#button{
+    margin-top: 40px;
+    background-color: blue;
+    position: relative;
+    height: 50px;
+    left: 40px;
+    width: 369px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+#member{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-family: sans-serif;
+}
+#sign{
+    position: relative;
+    left: 199px;
+    font-family: sans-serif;
+}
+#select{
+    position: relative;
+    top: 10px;
+    background-color: cadetblue;
+    border: 0;
+    color: white;
+    /* opacity: 0.6; */
+    font-weight: bolder;
+    font-size: 15px;
+    left: -26px;
+}
+#help{
+    display: flex;
+    position: relative;
+    left: 299px;
+    top: 40px;
+}
+#content{
+    position: relative;
+    right: -70px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /* opacity: 0.6; */
+}
+#policy{
+    position: relative;
+    right: -120px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    /* opacity: 0.6; */
+}
+.img{
+    background-image: url(image/033120190455-by-Henry.2edde7a9.jpg);
+    height: 560px;
+}
+#terms{
+    position: relative;
+    /* right: 20px; */
+    color: white;
+    left: 150px;
+    font-family: sans-serif;
+    /* opacity: 0.6; */
+    font-size: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width:478px){
+   #border{
+    position: absolute;
+    left: -420px;
+    width: 94.3%;
+    overflow: hidden;
+    top: -0px;
+    
+   } 
+   #email{
+    position: relative;
+    width: 80%;
+    margin-left: 20px;
+    overflow: hidden;
+   }
+   #button{
+    width: 80%;
+    margin-left: -20px;
+    overflow: hidden;
+   }
+   #select{
+    position: relative;
+    left: 10px;
+    overflow: hidden;
+   }
+   #content{
+    position: relative;
+    left: 20px;
+    color: black;
+    overflow: hidden;
+   }
+   #policy{
+    position: relative;
+    left: 30px;
+    color: black;
+
+    overflow: hidden;
+   }
+   #terms{
+    position: relative;
+    left: 50px;
+    overflow: hidden;
+    color: black;
+
+   }
+   #background{
+    width: 103%;
+    overflow: hidden;
+    /* height: 60px; */
+    display: none;
+   }
+   /* #help{ */
+    /* background-color: black; */
+    /* position: relative; */
+    /* left: -0px; */
+    /* top: 220px; */
+    /* opacity: 0.3; */
+   /* } */
+   .body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+   }
+   #header{
+    width: 80%;
+    overflow: hidden;
+    background-size: 50px;
+   }
+   .img{
+    height: 280px;
+   }
+}

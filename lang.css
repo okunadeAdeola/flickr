@@ -58,7 +58,7 @@
     font-weight: bold;
 }
 .carousel-inner{
-    height: 581px;
+    height: 610px;
 }
 #inspiration{
     position: relative;
@@ -84,6 +84,16 @@
     font-size: 17px;
     
 }
+*{
+    padding-bottom: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: none !important;
+    padding-bottom: none;
+    overflow: hidden;
+}
 #facebook{
     position: relative;
     right: 10px;
@@ -102,7 +112,7 @@
         /* overflow-x: hidden !important; */
     }
     #firstdiv{
-        height: 70px;
+        height: 100px;
         margin-bottom: 50px;
         /* width: 35%; */
         /* overflow-x: hidden; */
@@ -123,29 +133,27 @@
         position: relative;
         left: -200px;
     } */
-    #sign{
+   /* body{ */
+    /* overflow: hidden; */
+   /* } */
+    #billions{
+        display: none;
+    }
+    #find{
         position: relative;
-        width: 80px;
-        top: -70px;
-        font-size: 15px;
-        right:  -190px;
-
-        /* display: none; */
+        top: 20px;
     }
-    #log{
+    #found{
         position: relative;
-        width: 70px;
-        font-size: 15px;
-        top: -70px;
-        /* left: 10px; */
-         /* left: -20px; */
-        /* display: none; */
-
+        top: 20px;
     }
-    #second{
-        margin-left: 340px;
-        width: 30%;
-    }
+   
+    #second{ 
+        margin-left: 170px;
+        /* width: 10%; */
+        margin-top: -40px;
+        /* position: absolute; */
+    } 
     /* #second{ */
         /* position: relative; */
         /* width: 70px !important; */
@@ -155,6 +163,7 @@
     /* } */
     .carousel-inner{
         width: 100% !important;
+        height: 120%;
        
     }
     .d-block{
@@ -162,26 +171,51 @@
     }
     #inspiration{
         position: relative;
-        left: 60px;
-        top: -470px;
+        left: 100px;
+        top: -400px;
     }
     #flex{
-        display: inline-block;
-        height: 500px;
+        display: flex;
+        /* justify-content: space; */
+        height: 200px;
         position: relative;
         top: -310px;
-        width: 100%;
+        width: 290%;
         overflow: hidden;
     }
     #facebook{
         position: relative;
-        left: 5px;
+        left: -858px;
+        top: 120px;
         /* top: 500px; */
         /* display: block; */
     }
+    #section{
+        overflow-x: hidden;
+    }
+    #sign{
+        position: relative;
+        top: -30px;
+        /* left: -10px; */
+    }
+    #log{
+        position: relative;
+        top: -30px;
+    }
     #Flickr{
         /* position: relative; */
-        left: 5px;
+        left: -855px;
+        top: 120px;
+    }
+    #en{
+        position: relative;
+        left: -525px;
+        top: 80px;
+    }
+    #forum{
+        position: relative;
+        left: -275px;
+        top: 40px; 
     }
     /* #seconds{ */
         /* display: none; */

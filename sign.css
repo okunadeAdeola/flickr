@@ -9,7 +9,7 @@
 #border{
     border: 2px solid white;
     background-color: white;
-    height: 732px;
+    height: 762px;
     width: 440px;
     position: relative;
     margin-left: 480px;
@@ -30,8 +30,11 @@ body{
     font-size: 20px;
     font-weight: bold;
     left: 120px;
-    top: 20px;
+    top: 40px;
     font-family: sans-serif;
+}
+#section{
+    overflow-x: hidden;
 }
 #email{
     height: 50px;
@@ -45,7 +48,7 @@ body{
 }
 .img{
     background-image: url(image/033120190455-by-Henry.2edde7a9.jpg);
-    height: 730px;
+    height: 760px;
 }
 @media screen and (max-width:500px){
     .shadow{
@@ -71,6 +74,26 @@ body{
     .form-control{
         width: 25%;
         overflow: hidden;
+    }
+    .text-primary{
+        position: relative;
+        top: -0px;
+    }
+    .primary{
+        position: relative;
+        top: -69px;
+    }
+    #member{
+        position: relative;
+        top: -18px;
+    }
+    #services{
+        position: relative;
+        top: -40px;
+    }
+    #servicer{
+        position: relative;
+        top: -60px;
     }
 
 }

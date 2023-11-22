@@ -158,21 +158,21 @@
     position: relative;
     left: -20px;
     overflow: hidden;
-    top: 340px;
+    top: 280px;
    }
    #content{
     position: relative;
     left: -10px;
     color: blue;
     overflow: hidden;
-    top: 340px;
+    top: 280px;
     font-size: 15px;
    }
    #policy{
     position: relative;
     left: 10px;
     /* color: black; */
-    top: 340px;
+    top: 280px;
     overflow: hidden;
     font-size: 15px;
     color: blue;
@@ -188,7 +188,7 @@
     left: 50px;
     overflow: hidden;
     color: blue;
-    top: 340px;
+    top: 280px;
     left: 40px;
     font-size: 15px;
    }

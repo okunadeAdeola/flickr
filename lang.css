@@ -10,25 +10,27 @@
     top: -20px;
 }
 #firstdiv{
-    /* height: 90px; */
+    height: 60px;
     position: fixed;
     z-index: 2;
     top: 0;
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .form-control{
     position: relative;
-    top: -30px;
+    top: -90px;
     left: 320px;
+    height: 39px;
+    text-align: left;
     background-color: aliceblue;
 }
 #image{
     position: relative;
-    left: 324px;
+    left: 323px;
     width: 30px;
     height: 39px;
-    top: -14px;
+    top: -74px;
     /* border: white; */
     background-color: white;
     border-radius: 4px;
@@ -36,11 +38,12 @@
 #second{
     position: relative;
     left: -70px;
+    top: -30px;
 }
 #sign{
     position: relative;
     left: 990px;
-    bottom: 90px;
+    bottom: 142px;
     width: 103px;
     height: 50px;
     border-radius: 4px;
@@ -49,8 +52,8 @@
 }
 #log{
     position: relative;
-    left: 1020px;
-    bottom: 90px;
+    left: 1099px;
+    bottom: 190px;
     width: 103px;
     height: 50px;
     border-radius: 4px;
@@ -119,7 +122,9 @@ body{
         
     }
     #image{
-        display: none;
+       margin-left: -0px;
+       margin-top: 0px;
+       border: 0;
     }
     .form-control{
         display: none !important;
@@ -149,9 +154,9 @@ body{
     }
    
     #second{ 
-        margin-left: 209px;
+        margin-left: 180px;
         /* width: 10%; */
-        margin-top: -40px;
+        margin-top: 20px;
         /* position: absolute; */
     } 
     /* #second{ */
@@ -197,10 +202,13 @@ body{
         position: relative;
         top: -30px;
         /* left: -10px; */
+        display: none;
     }
     #log{
         position: relative;
-        top: -30px;
+        top: -140px;
+        left: px;
+        font-size: 28px;
     }
     #Flickr{
         /* position: relative; */
